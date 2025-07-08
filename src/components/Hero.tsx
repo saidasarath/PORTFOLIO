@@ -18,10 +18,15 @@ const Hero = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8">
-            <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold flex items-center justify-center gap-2 transition-all duration-300 transform hover:scale-105">
+            <a
+              href="https://docs.google.com/document/d/18TQhCoNW5gF10Bhb5CFOBpARUrgsmHvv/edit?usp=sharing&ouid=116073033825174028425&rtpof=true&sd=true"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold flex items-center justify-center gap-2 transition-all duration-300 transform hover:scale-105"
+            >
               <Download size={20} />
               Download Resume
-            </button>
+            </a>
             <a 
               href="#contact"
               className="border border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300"

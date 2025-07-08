@@ -38,10 +38,15 @@ const About = () => {
               </ul>
             </div>
 
-            <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold flex items-center gap-2 transition-all duration-300 transform hover:scale-105">
+            <a
+              href="https://docs.google.com/document/d/18TQhCoNW5gF10Bhb5CFOBpARUrgsmHvv/edit?usp=sharing&ouid=116073033825174028425&rtpof=true&sd=true"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold flex items-center gap-2 transition-all duration-300 transform hover:scale-105"
+            >
               <Download size={20} />
               Download Resume
-            </button>
+            </a>
           </div>
 
           <div className="flex justify-center">
